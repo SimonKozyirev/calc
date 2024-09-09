@@ -2,12 +2,13 @@ from tkinter import *
 from tkinter import ttk
 from tkinter.ttk import *
 from tkinter.messagebox import *
-from random import *
 
 root = Tk()
 root.title("калькулятор")
 root.geometry("400x300")
 root.resizable(False, False)
+icon = PhotoImage(file="1.png")
+root.iconphoto(False, icon)
 
 
 def button1_clicked(*event):
